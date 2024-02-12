@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pipeline {
     agent any
 
@@ -20,4 +21,28 @@ pipeline {
             }
         }
     }
+=======
+pipeline {
+    agent any
+
+    stages {
+        stage('Stage 1') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        
+        stage('Stage 2') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        
+        stage('Stage 3') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+>>>>>>> bf1f08e28c96b3c24ea93ce024b0251dc996fee9
 }
