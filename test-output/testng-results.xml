@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-12T13:32:29 IST" name="Default suite" finished-at="2024-02-12T13:32:38 IST" duration-ms="9856">
+  <suite started-at="2024-02-12T14:46:53 IST" name="Default suite" finished-at="2024-02-12T14:47:02 IST" duration-ms="8753">
     <groups>
     </groups>
-    <test started-at="2024-02-12T13:32:29 IST" name="Default test" finished-at="2024-02-12T13:32:38 IST" duration-ms="9856">
+    <test started-at="2024-02-12T14:46:53 IST" name="Default test" finished-at="2024-02-12T14:47:02 IST" duration-ms="8753">
       <class name="testCases.loginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.loginTest@2ed2d9cb]" started-at="2024-02-12T13:32:25 IST" name="setup" finished-at="2024-02-12T13:32:29 IST" duration-ms="3522" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.loginTest@2ed2d9cb]" started-at="2024-02-12T14:46:50 IST" name="setup" finished-at="2024-02-12T14:46:53 IST" duration-ms="2803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testCases.loginTest@2ed2d9cb]" started-at="2024-02-12T13:32:29 IST" name="navigateToURL" finished-at="2024-02-12T13:32:33 IST" duration-ms="4191" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testCases.loginTest@2ed2d9cb]" started-at="2024-02-12T14:46:53 IST" name="navigateToURL" finished-at="2024-02-12T14:46:56 IST" duration-ms="3282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testCases.loginTest@2ed2d9cb]" started-at="2024-02-12T13:32:33 IST" name="login" data-provider="usertestdata" finished-at="2024-02-12T13:32:38 IST" duration-ms="5589" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testCases.loginTest@2ed2d9cb]" started-at="2024-02-12T14:46:56 IST" name="login" data-provider="usertestdata" finished-at="2024-02-12T14:47:02 IST" duration-ms="5412" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:testCases.loginTest@2ed2d9cb]" started-at="2024-02-12T13:32:39 IST" name="finish" finished-at="2024-02-12T13:32:40 IST" duration-ms="1498" status="PASS">
+        <test-method is-config="true" signature="finish()[pri:0, instance:testCases.loginTest@2ed2d9cb]" started-at="2024-02-12T14:47:02 IST" name="finish" finished-at="2024-02-12T14:47:04 IST" duration-ms="1670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
