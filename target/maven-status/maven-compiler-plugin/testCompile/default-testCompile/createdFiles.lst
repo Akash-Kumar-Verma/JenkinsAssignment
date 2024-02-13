@@ -1,7 +1,5 @@
 pages\homePage.class
-pages\Productsearch.class
+com\example\com\SeleniumProject\AppTest.class
 testCases\loginTest.class
 pages\loginPage.class
-com\example\com\SeleniumProject\AppTest.class
-testCases\ProductSearch.class
 pages\basePage.class
