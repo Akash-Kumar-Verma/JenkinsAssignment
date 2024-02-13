@@ -8,5 +8,6 @@ public class loginPage {
 	public static By btn_signIn = By.xpath("//p[@class='submit']//span[1]");
 	public static By btn_continue = By.id("continue");
 	public static By btn_signInSubmit = By.id("signInSubmit");
+
 }
 

@@ -1,13 +1,11 @@
 package pages;
 
-import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
-
 
 
 
@@ -18,14 +16,11 @@ public class basePage {
 	@BeforeSuite
 	public  void setup() {
 		 
-		System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") + "\\drivers\\msedgedriver.exe");
+		//System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") + "\\drivers\\msedgedriver.exe");
 
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\drivers\\chromedriver.exe");
 	
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		
-		driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(1));
 		
 		//WebDriver
 		System.out.println("Setup Successful");
