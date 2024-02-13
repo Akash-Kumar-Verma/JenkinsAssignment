@@ -10,7 +10,6 @@ import pages.loginPage;
 
 
 
-
 public class loginTest extends basePage{
     
 	@DataProvider(name="usertestdata")
