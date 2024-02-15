@@ -37,6 +37,7 @@ public class DemoTest {
 			driver.get("https://www.amazon.in/");
 			System.out.println("Title"+driver.getTitle());
             System.out.println("Test case 1 passed.");
+            driver.close();
 	    }
 	    
 	  
