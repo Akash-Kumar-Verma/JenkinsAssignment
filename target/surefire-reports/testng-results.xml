@@ -2,40 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-13T15:36:24 IST" name="Suite" finished-at="2024-02-13T15:36:32 IST" duration-ms="7368">
+  <suite started-at="2024-02-15T10:37:47 IST" name="Suite" finished-at="2024-02-15T10:37:51 IST" duration-ms="4445">
     <groups>
     </groups>
-    <test started-at="2024-02-13T15:36:24 IST" name="Test" finished-at="2024-02-13T15:36:32 IST" duration-ms="7368">
-      <class name="testCases.loginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.loginTest@37654521]" started-at="2024-02-13T15:36:22 IST" name="setup" finished-at="2024-02-13T15:36:24 IST" duration-ms="2819" status="PASS">
+    <test started-at="2024-02-15T10:37:47 IST" name="Test" finished-at="2024-02-15T10:37:51 IST" duration-ms="4445">
+      <class name="testCases.DemoTest">
+        <test-method signature="test1()[pri:0, instance:testCases.DemoTest@482bce4f]" started-at="2024-02-15T10:37:47 IST" name="test1" finished-at="2024-02-15T10:37:51 IST" duration-ms="4409" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testCases.loginTest@37654521]" started-at="2024-02-13T15:36:24 IST" name="navigateToURL" finished-at="2024-02-13T15:36:26 IST" duration-ms="1587" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:testCases.loginTest@37654521]" started-at="2024-02-13T15:36:26 IST" name="login" data-provider="usertestdata" finished-at="2024-02-13T15:36:32 IST" duration-ms="5727" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[akashv5482@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[akashchakia]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:testCases.loginTest@37654521]" started-at="2024-02-13T15:36:32 IST" name="finish" finished-at="2024-02-13T15:36:33 IST" duration-ms="1513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finish -->
-      </class> <!-- testCases.loginTest -->
+        </test-method> <!-- test1 -->
+      </class> <!-- testCases.DemoTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

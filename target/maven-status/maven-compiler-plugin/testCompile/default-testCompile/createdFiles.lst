@@ -1,5 +1,2 @@
-pages\homePage.class
+testCases\DemoTest.class
 com\example\com\SeleniumProject\AppTest.class
-testCases\loginTest.class
-pages\loginPage.class
-pages\basePage.class
