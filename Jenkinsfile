@@ -33,14 +33,6 @@ pipeline {
 		            steps {
 		                // Publish repots using HTML Publisher plugin
 		               echo 'You are in publish reports section'
-			                publishHTML(target:[
-			                    allowMissing: false,
-			                    alwaysLinkToLastBuild: true,
-			                    keepAll: true,
-			                    reportDir: 'test-output',
-			                    reportFiles: 'index.html',
-			                    reportName: 'HTML Report'
-			                ])
 			    }
 		        }
         
