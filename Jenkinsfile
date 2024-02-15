@@ -5,7 +5,7 @@ pipeline {
 		        stage('Checkout') {
 		            steps {
 		                // Checkout code from the Git repository
-				 git branch: 'master', url:'https://github.com/debdan0341/Jenkins.git'
+				 git branch: 'main', url:'https://github.com/Akash-Kumar-Verma/JenkinsAssignment.git'
 
 		                echo 'checkout'
 		              }
